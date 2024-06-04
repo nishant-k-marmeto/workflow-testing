@@ -2,6 +2,12 @@
 // https://msvaljek.blogspot.com/2013/08/canvas-simple-game.html
 
 // standard shim
+
+
+function notcamelcase(){
+  console.log("i am not a camel case named function");
+}
+
 window.requestAnimFrame = (function(){
 	return window.requestAnimationFrame ||
 	window.webkitRequestAnimationFrame ||
