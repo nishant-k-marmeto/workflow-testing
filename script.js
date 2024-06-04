@@ -7,6 +7,7 @@
 function notcamelcase(){
   console.log("i am not a camel case named function");
 }
+notcamelcase();
 
 window.requestAnimFrame = (function(){
 	return window.requestAnimationFrame ||
