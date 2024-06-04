@@ -3,6 +3,7 @@
     "eslint": "^9.4.0",
     "eslint-define-config": "^2.1.0",
     "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.0",
     "stylelint-selector-bem-pattern": "^4.0.0"
   },
   "scripts": {
