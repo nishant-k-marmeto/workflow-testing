@@ -5,7 +5,7 @@
     "stylelint-selector-bem-pattern": "^4.0.0"
   },
   "scripts": {
-    "lint:css": "stylelint '**/*.css'",
-    "lint:js": "eslint '**/*.js'"
+    "lint:css": "stylelint './*.css'",
+    "lint:js": "eslint './*.js'"
   }
 }

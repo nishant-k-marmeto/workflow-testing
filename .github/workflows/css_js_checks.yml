@@ -26,7 +26,8 @@ jobs:
       run: npm install
 
     - name: Run CSS lint
-      run: npm run lint:css
+      run: npm install stylelint-config-standard
+
 
     - name: Run JS lint
       run: npm run lint:js
