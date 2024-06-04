@@ -30,5 +30,7 @@ jobs:
 
 
     - name: Run JS lint
-      run: npx @eslint/migrate-config .eslintrc.json
+      run: npm run lint:js,
+      env:
+        ESLINT_CONFIG: '.eslintrc'
 
